@@ -13,7 +13,7 @@ export function GameStats({ guessCount, isWinner, answer, onPlayAgain }: GameSta
       <div className="mb-4">
         {isWinner ? (
           <>
-            <h2 className="text-2xl font-bold text-green-600 mb-2">🎉 Congratulations!</h2>
+            <h2 className="text-2xl font-bold text-green-600 mb-2"> Congratulations</h2>
             <p className="text-gray-600">You won in {guessCount} {guessCount === 1 ? 'guess' : 'guesses'}!</p>
           </>
         ) : (
